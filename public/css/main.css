@@ -1,0 +1,217 @@
+body {
+  background: #afafaf;
+}
+
+#container {
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  background: #373737;
+  margin: 80px auto;
+}
+
+button {
+	border: none;
+	width: 210px;
+	height: 210px;
+	margin: 10px;
+	padding: 0;
+	cursor: pointer;
+}
+
+#btn1 {
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-top: 30px;
+	background-color: #41b70b;
+	border-top-left-radius: 100%;
+}
+
+#btn2 {
+	background-color: #b00600;
+	border-top-right-radius: 100%;
+}
+
+#btn3 {
+	background-color: #b7ac00;
+  margin-left: 30px;
+	border-bottom-left-radius: 100%;
+}
+
+#btn4 {
+	background-color: #006fb0;
+	border-bottom-right-radius: 100%;
+}
+
+#menu {
+	width: 240px;
+	height: 240px;
+	z-index: 200;
+	background-color: #CCCCCC;
+	border: solid 10px  #373737;
+	border-radius: 300px;
+	margin: auto;
+	position: relative;
+	top: -360px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Slabo 27px', serif;
+  font-size: 3rem;
+}
+
+#display {
+	width: 55px;
+	height: 30px;
+	padding: 5px;
+	border-radius: 15px;
+	background-color: #373737;
+	position: relative;
+	left: 30px;
+  bottom: 20px;
+	font-family:"VT323";
+	font-size: 2em;
+	text-align: center;
+	display: inline-block;
+}
+
+#strictLight {
+	display: inline-block;
+	width: 6px;
+	height: 5px;
+	position: relative;
+	border-radius: 10px;
+	border: solid 3px #2f2f2f;
+  left: 108px;
+	top: -55px;
+}
+
+#start, #strict {
+	width: 30px;
+	height: 30px;
+	border: solid 4px #2f2f2f;
+	display: inline-block;
+	z-index: 300;
+	position: relative;
+  left: 20px;
+  bottom: 20px;
+	border-radius: 100%;
+}
+
+#start {
+  background: red;
+}
+
+#strict {
+  background: yellow;
+}
+
+#startText, #strictText {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+
+#startText {
+	top: -2px;
+	left: -80px;
+}
+
+#strictText {
+	top: -38px;
+	left: 168px;
+}
+
+#onoff {
+	width: 50px;
+	height: 22px;
+	background-color: #373737;
+	border-radius: 10%;
+  position: relative;
+	left: 98px;
+	top: -25px;
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+
+#onoffbtn {
+	width: 20px;
+	height: 16px;
+	background: #4682B4;
+	z-index: 500;
+	position:relative;
+	display: inline-block;
+  top: -2px;
+  left: 3px;
+}
+
+#offText {
+	display: inline-block;
+	position: relative;
+  left: -51px;
+	top: -7px;
+}
+
+#onText {
+	display: inline-block;
+	position: relative;
+  left: 55px;
+	top: -43px;
+}
+
+.turnOn {
+  left: 27px !important;
+}
+
+.brightGreen {
+  background: #00FF00 !important;
+}
+
+.brightRed {
+  background: #FF4C4C !important;
+}
+
+.brightYellow {
+  background: #FFFF00 !important;
+}
+
+.brightBlue {
+  background: #00BFFF !important;
+}
+
+#start {
+  opacity: 0.8;
+}
+
+#strict {
+  opacity: 0.8;
+}
+
+#btn1 {
+  opacity: 0.8;
+}
+
+#btn2 {
+  opacity: 0.8;
+}
+
+#btn3 {
+  opacity: 0.8;
+}
+
+#btn4 {
+  opacity: 0.8;
+}
+
+#strictLight {
+  opacity: 0.8;
+}
+
+button:focus {
+  text-decoration: none !important;
+  outline:none !important;
+  box-shadow: none !important;
+}

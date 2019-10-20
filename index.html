@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="public/css/main.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Simon Game</title>
+  </head>
+  <body>
+    <div id="container">
+      <button class="btn" id="btn1" index="1"></button>
+      <button class="btn" id="btn2" index="2"></button>
+      <button class="btn" id="btn3" index="3"></button>
+      <button class="btn" id="btn4" index="4"></button>
+      <div id="menu">
+        <h1>Simon</h1>
+        <input placeholder="--" type="text" id="display" readonly/>
+        <div id="strictLight" class=""></div>
+        <button id="start"></button>
+        <button id="strict"></button>
+        <p id="startText">START</p>
+        <p id="strictText">STRICT</p>
+        <div id="onoff">
+          <div id="onoffbtn" class=""></div>
+          <p id="offText">OFF</p>
+          <p id="onText">ON</p>
+          <div>
+          </div>
+        </div>
+
+        <audio id="simon1" class="sfx" preload="auto">
+          <source src="public/mp3/simonSound1.mp3"
+            type="audio/mpeg">
+        </audio>
+        <audio id="simon2" class="sfx" preload="auto">
+          <source src="public/mp3/simonSound2.mp3"
+            type="audio/mpeg">
+        </audio>
+        <audio id="simon3" class="sfx" preload="auto">
+          <source src="public/mp3/simonSound3.mp3"
+            type="audio/mpeg">
+        </audio>
+        <audio id="simon4" class="sfx" preload="auto">
+          <source src="public/mp3/simonSound4.mp3"
+            type="audio/mpeg">
+        </audio>
+        <audio id="error" class="sfx" preload="auto">
+          <source src="public/mp3/buzzer.mp3"
+            type="audio/mpeg">
+        </audio>
+
+        <script type='text/javascript' src='public/js/jquery.js'></script>
+        <script type='text/javascript' src='public/js/main.js'></script>
+      </body>
+    </html>
